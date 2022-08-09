@@ -65,6 +65,19 @@ sudo apt-get update \
     zlib1g
 ```
 
+## Ubuntu 22.04 "Jammy"
+```bash
+ sudo apt-get update \
+    && sudo apt-get install -y --no-install-recommends \
+    libc6 \
+    libgcc-s1 \
+    libgssapi-krb5-2 \
+    libicu70 \
+    libssl3 \
+    libstdc++6 \
+    zlib1g 
+```
+
 ## Ubuntu 20.04 "Focal"
 
 ```bash
